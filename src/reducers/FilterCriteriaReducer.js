@@ -4,7 +4,6 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-  age: { min: 0, max: 100 }
 };
 
 export default (state = INITIAL_STATE, action) => {
